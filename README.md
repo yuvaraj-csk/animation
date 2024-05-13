@@ -38,8 +38,8 @@ Developed by:SRIVARSHAN S
 Registeration Number :212221040163
 */
 ```
+## ACTIVITY_MAIN.XML
 ```
-ACTIVITY_MAIN.XML
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -132,8 +132,9 @@ ACTIVITY_MAIN.XML
         app:layout_constraintVertical_bias="0.91" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+
+## ZOOM.XML
 ```
-ZOOM.XML
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <scale xmlns:android="http://schemas.android.com/apk/res/android"
@@ -150,8 +151,9 @@ ZOOM.XML
     </scale>
 </set>
 ```
+
+## SLIDE.XML
 ```
-SLIDE.XML
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <scale android:duration="500"
@@ -161,8 +163,9 @@ SLIDE.XML
         android:toYScale="0.0" />
 </set>
 ```
+
+## ROTATE.XML
 ```
-ROTATE.XML
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <rotate
@@ -180,8 +183,9 @@ ROTATE.XML
         android:toDegrees="0" />
 </set>
 ```
+
+## MOVE.XML
 ```
-MOVE.XML
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <translate
@@ -190,8 +194,9 @@ MOVE.XML
         android:duration="700" />
 </set>
 ```
+
+## FADE.XML
 ```
-FADE.XML
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- duration is the time for which animation will work-->
@@ -206,8 +211,9 @@ FADE.XML
         android:toAlpha="0" />
 </set>
 ```
+
+## BLINK.XML
 ```
-BLINK.XML
 <?xml version="1.0" encoding="utf-8"?>
 <set xmlns:android="http://schemas.android.com/apk/res/android">
     <alpha android:fromAlpha="0.0" android:toAlpha="1.0"
@@ -216,8 +222,9 @@ BLINK.XML
         android:repeatCount="infinite"/>
 </set>
 ```
+
+## MAINACTIVITY.JAVA
 ```
-MAINACTIVITY.JAVA
 package com.example.exp11;
 
 import androidx.appcompat.app.AppCompatActivity;
